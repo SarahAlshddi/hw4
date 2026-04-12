@@ -1,7 +1,7 @@
 /* ===== GENERAL PAGE ===== */
 body {
   font-family: "Trebuchet MS", Arial, sans-serif;
-  background-color: #f3f0e6; /* creamy off-white */
+  background-color: #f3f0e6;
   color: #3d3833;
   margin: 0;
   padding: 0;
@@ -11,7 +11,7 @@ body {
 
 /* ===== HEADER ===== */
 header {
-  background-color: #687a6e; /* soft sage */
+  background-color: #687a6e;
   padding: 1.7rem;
   text-align: center;
   border-bottom: 0.12rem solid #d0c7bb;
@@ -59,7 +59,7 @@ main {
   margin: 2rem auto;
 }
 
-/* ===== CARDS / BOXES ===== */
+/* ===== BOXES ===== */
 section,
 article,
 form,
@@ -98,7 +98,7 @@ h4 {
   margin-bottom: 0.6rem;
 }
 
-/* ===== PARAGRAPHS ===== */
+/* ===== TEXT ===== */
 p {
   margin-bottom: 0.9rem;
   font-size: 1.08rem;
@@ -198,10 +198,6 @@ dd {
   border: 0.08rem solid #ddd4c7;
   border-radius: 0.8rem;
   padding: 1rem;
-}
-
-.skill-box:last-child {
-  margin-right: 0;
 }
 
 /* ===== PROJECTS ===== */
@@ -309,7 +305,7 @@ footer {
   font-size: 1rem;
 }
 
-/* ===== BACK TO TOP (NORMAL, NOT FIXED) ===== */
+/* ===== BACK TO TOP ===== */
 .back-to-top {
   display: block;
   text-align: right;
@@ -320,6 +316,8 @@ footer {
   width: 2.8rem;
   height: auto;
 }
+
+/* ===== EMAIL OPTION ===== */
 .email-option {
   text-align: center;
   margin-top: 1.5rem;
@@ -327,12 +325,13 @@ footer {
 
 .email-option img {
   width: 35px;
-  vertical-align: middle;
   margin-left: 0.5rem;
 }
+
+/* ===== DOWNLOAD BUTTON ===== */
 .download-btn {
   display: inline-block;
-  background-color: #9a9b87; 
+  background-color: #9a9b87;
   color: #fffaf5;
   padding: 0.7rem 1.2rem;
   border-radius: 0.6rem;
