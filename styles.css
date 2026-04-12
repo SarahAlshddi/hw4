@@ -1,7 +1,7 @@
 /* ===== GENERAL PAGE ===== */
 body {
   font-family: "Trebuchet MS", Arial, sans-serif;
-  background-color: #f3f0e6;
+  background-color: #f3f0e6; /* creamy off-white */
   color: #3d3833;
   margin: 0;
   padding: 0;
@@ -11,19 +11,21 @@ body {
 
 /* ===== HEADER ===== */
 header {
-  background-color: #e3e3db;
+  background-color: #687a6e; /* soft sage */
   padding: 1.7rem;
   text-align: center;
-  border-bottom: 0.12rem solid #cfc8bc;
+  border-bottom: 0.12rem solid #d0c7bb;
 }
 
 h1 {
-  color: #3d3833;
+  color: #fffaf5;
   font-size: 2.5rem;
   margin: 0;
   font-weight: bold;
+  text-shadow: 0.08rem 0.08rem 0.08rem #55655b;
 }
 
+/* ===== NAVIGATION ===== */
 nav {
   background-color: #9a9b87;
   padding: 0.9rem;
@@ -32,7 +34,7 @@ nav {
 }
 
 nav a {
-  color: #fffaf2;
+  color: #fffaf5;
   text-decoration: none;
   font-weight: bold;
   margin: 0 0.75rem;
@@ -42,13 +44,13 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #c0b283;
+  background-color: #e4c6bd;
   color: #3d3833;
 }
 
 nav a[aria-current="page"] {
   background-color: #ad8e85;
-  color: #fffaf2;
+  color: #fffaf5;
 }
 
 /* ===== MAIN ===== */
@@ -57,13 +59,13 @@ main {
   margin: 2rem auto;
 }
 
-/* ===== SECTIONS / CARDS ===== */
+/* ===== CARDS / BOXES ===== */
 section,
 article,
 form,
 blockquote {
-  background-color: #fffaf2; 
-  border: 0.08rem solid #d9d1c4;
+  background-color: #fffaf5;
+  border: 0.08rem solid #ddd4c8;
   border-radius: 0.9rem;
   padding: 1.2rem;
   margin-bottom: 1.4rem;
@@ -96,20 +98,10 @@ h4 {
   margin-bottom: 0.6rem;
 }
 
-/* ===== TEXT ===== */
+/* ===== PARAGRAPHS ===== */
 p {
   margin-bottom: 0.9rem;
   font-size: 1.08rem;
-}
-
-.highlight {
-  color: #687a6e;
-  font-weight: bold;
-}
-
-#intro {
-  font-style: italic;
-  color: #6b625b;
 }
 
 /* ===== LINKS ===== */
@@ -119,6 +111,28 @@ a {
 
 a:hover {
   color: #ad8e85;
+}
+
+/* ===== HIGHLIGHTS ===== */
+.highlight {
+  color: #ad8e85;
+  font-weight: bold;
+}
+
+.highlight-strong {
+  color: #687a6e;
+  font-weight: bold;
+}
+
+.highlight-bg {
+  background-color: #f2e3de;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.4rem;
+}
+
+#intro {
+  font-style: italic;
+  color: #6b625b;
 }
 
 /* ===== LISTS ===== */
@@ -154,7 +168,7 @@ dd {
 /* ===== HOME INTRO ===== */
 .intro {
   display: flex;
-  align-items: center;
+  text-align: left;
 }
 
 .intro-text {
@@ -193,7 +207,6 @@ dd {
 /* ===== PROJECTS ===== */
 .project {
   display: flex;
-  align-items: center;
 }
 
 .project-text {
@@ -258,7 +271,7 @@ textarea {
 
 button {
   background-color: #9a9b87;
-  color: #fffaf2;
+  color: #fffaf5;
   font-weight: bold;
   border: 0.08rem solid #8a8b78;
   padding: 0.75rem 1.1rem;
@@ -268,7 +281,7 @@ button {
 
 button:hover {
   background-color: #ad8e85;
-  color: #fffaf2;
+  color: #fffaf5;
 }
 
 /* ===== BLOCKQUOTE ===== */
@@ -296,11 +309,11 @@ footer {
   font-size: 1rem;
 }
 
-/* ===== BACK TO TOP ===== */
+/* ===== BACK TO TOP (NORMAL, NOT FIXED) ===== */
 .back-to-top {
-  position: fixed;
-  bottom: 1.2rem;
-  right: 1.2rem;
+  display: block;
+  text-align: right;
+  margin-top: 1rem;
 }
 
 .back-to-top img {
