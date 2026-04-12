@@ -320,7 +320,16 @@ footer {
   width: 2.8rem;
   height: auto;
 }
+.email-option {
+  text-align: center;
+  margin-top: 1.5rem;
+}
 
+.email-option img {
+  width: 35px;
+  vertical-align: middle;
+  margin-left: 0.5rem;
+}
 .download-btn {
   display: inline-block;
   background-color: #687a6e;
