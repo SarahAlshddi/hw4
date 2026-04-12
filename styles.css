@@ -1,149 +1,178 @@
-/* ===== الصفحة ===== */
+/* ===== GENERAL PAGE ===== */
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #f7f3ee; /* سكري */
-  color: #3e2f2f; /* بني غامق */
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  background-color: #f3f0e6;
+  color: #3d3833;
   margin: 0;
   padding: 0;
-  line-height: 1.6;
+  line-height: 1.8;
+  font-size: 1.08rem;
 }
 
-/* ===== الهيدر ===== */
+/* ===== HEADER ===== */
 header {
-  background-color: #e8ded1; /* بيج */
-  padding: 1.5rem;
+  background-color: #e3e3db;
+  padding: 1.7rem;
   text-align: center;
-  border-bottom: 0.15rem solid #d6c7b2;
+  border-bottom: 0.12rem solid #cfc8bc;
 }
 
 h1 {
-  color: #3e2f2f;
-  font-size: 2.2rem;
+  color: #3d3833;
+  font-size: 2.5rem;
   margin: 0;
+  font-weight: bold;
 }
 
-/* ===== النافيقيشن ===== */
 nav {
-  background-color: #d9cbb6;
-  padding: 0.8rem;
+  background-color: #9a9b87;
+  padding: 0.9rem;
   margin-top: 1rem;
+  border-radius: 0.7rem;
 }
 
 nav a {
-  color: #3e2f2f;
+  color: #fffaf2;
   text-decoration: none;
   font-weight: bold;
-  margin: 0 0.7rem;
-  padding: 0.4rem 0.6rem;
-  border-radius: 0.4rem;
+  margin: 0 0.75rem;
+  padding: 0.45rem 0.7rem;
+  border-radius: 0.5rem;
+  font-size: 1.02rem;
 }
 
-/* Hover */
 nav a:hover {
-  background-color: #f0e7dc;
-  color: #6b4f3a;
+  background-color: #c0b283;
+  color: #3d3833;
 }
 
-/* الصفحة الحالية */
 nav a[aria-current="page"] {
-  background-color: #cbb79c;
-  color: #3e2f2f;
+  background-color: #ad8e85;
+  color: #fffaf2;
 }
 
-/* ===== العناوين ===== */
-h2 {
-  color: #4b3a2f;
-  font-size: 1.6rem;
-  text-transform: capitalize;
-}
-
-h3 {
-  color: #5a4638;
-}
-
-h4 {
-  color: #6b5545;
-}
-
-/* ===== النص ===== */
-p {
-  margin-bottom: 0.8rem;
-}
-
-/* ===== القوائم ===== */
-ul {
-  list-style-type: square;
-  list-style-position: outside;
-}
-
-ol {
-  list-style-type: decimal;
-  list-style-position: outside;
-}
-
-dt {
-  font-weight: bold;
-  color: #5f3d90;
-}
-
-dd {
-  margin-left: 1.2rem;
-}
-
-/* ===== المحتوى ===== */
+/* ===== MAIN ===== */
 main {
-  width: 85%;
+  width: 86%;
   margin: 2rem auto;
 }
 
+/* ===== SECTIONS / CARDS ===== */
 section,
 article,
 form,
 blockquote {
-  background-color: #fffaf5; /* أبيض سكري */
-  border: 1px solid #e3d7c9;
-  border-radius: 0.8rem;
-  padding: 1rem;
-  margin-bottom: 1.2rem;
+  background-color: #fffaf2; 
+  border: 0.08rem solid #d9d1c4;
+  border-radius: 0.9rem;
+  padding: 1.2rem;
+  margin-bottom: 1.4rem;
 }
 
 hr {
   border: none;
   height: 0.08rem;
-  background-color: #d9c9ef;
-  margin: 1.5rem 0;
+  background-color: #d8d0c2;
+  margin: 1.6rem 0;
 }
 
-/* ===== كلاسات ===== */
+/* ===== HEADINGS ===== */
+h2 {
+  color: #4b443e;
+  font-size: 1.9rem;
+  text-transform: capitalize;
+  margin-bottom: 0.8rem;
+}
+
+h3 {
+  color: #5b524b;
+  font-size: 1.45rem;
+  margin-bottom: 0.7rem;
+}
+
+h4 {
+  color: #6a6058;
+  font-size: 1.18rem;
+  margin-bottom: 0.6rem;
+}
+
+/* ===== TEXT ===== */
+p {
+  margin-bottom: 0.9rem;
+  font-size: 1.08rem;
+}
+
 .highlight {
-  color: #6b4f3a;
+  color: #687a6e;
   font-weight: bold;
 }
 
 #intro {
   font-style: italic;
-  color: #5f5572;
+  color: #6b625b;
 }
 
-/* ===== الصفحة الرئيسية ===== */
+/* ===== LINKS ===== */
+a {
+  color: #687a6e;
+}
+
+a:hover {
+  color: #ad8e85;
+}
+
+/* ===== LISTS ===== */
+ul {
+  list-style-type: square;
+  list-style-position: outside;
+  padding-left: 1.6rem;
+}
+
+ol {
+  list-style-type: decimal;
+  list-style-position: outside;
+  padding-left: 1.6rem;
+}
+
+li {
+  margin-bottom: 0.45rem;
+  font-size: 1.06rem;
+}
+
+dt {
+  font-weight: bold;
+  color: #5d534b;
+  margin-top: 0.55rem;
+}
+
+dd {
+  margin-left: 1.2rem;
+  margin-bottom: 0.45rem;
+  font-size: 1.04rem;
+}
+
+/* ===== HOME INTRO ===== */
 .intro {
   display: flex;
+  align-items: center;
 }
 
 .intro-text {
-  width: 60%;
+  width: 58%;
 }
 
 .intro-image {
-  width: 40%;
+  width: 42%;
   text-align: center;
 }
 
 .intro-image img {
-  width: 70%;
+  width: 72%;
+  height: auto;
+  border-radius: 0.8rem;
 }
 
-/* ===== CV ===== */
+/* ===== CV SKILLS ===== */
 .skills {
   display: flex;
 }
@@ -151,15 +180,20 @@ hr {
 .skill-box {
   width: 30%;
   margin-right: 3%;
-  background-color: #fbf8f3;
-  border: 1px solid #ddd1c4;
-  border-radius: 0.6rem;
-  padding: 0.8rem;
+  background-color: #fbf7f0;
+  border: 0.08rem solid #ddd4c7;
+  border-radius: 0.8rem;
+  padding: 1rem;
 }
 
-/* ===== المشاريع ===== */
+.skill-box:last-child {
+  margin-right: 0;
+}
+
+/* ===== PROJECTS ===== */
 .project {
   display: flex;
+  align-items: center;
 }
 
 .project-text {
@@ -172,13 +206,10 @@ hr {
 }
 
 .project-image img {
-  width: 90%;
-  border: 1px solid #ddd1c4;
-  border-radius: 0.7rem;
-}
-
-.project.reverse {
-  display: flex;
+  width: 88%;
+  height: auto;
+  border: 0.08rem solid #d8cfc2;
+  border-radius: 0.8rem;
 }
 
 .project.reverse .project-image {
@@ -189,67 +220,90 @@ hr {
   margin-left: 2%;
 }
 
+figure {
+  margin: 0;
+}
+
 figcaption {
   font-style: italic;
-  font-size: 0.95rem;
+  font-size: 1rem;
   text-align: center;
-  margin-top: 0.5rem;
-  color: #6b6279;
+  margin-top: 0.55rem;
+  color: #6c655f;
 }
 
 time {
   font-weight: bold;
-  color: #8b5e3c;
+  color: #ad8e85;
 }
 
-/* ===== الفورم ===== */
+/* ===== FORM ===== */
 label {
   font-weight: bold;
+  color: #4f473f;
+  font-size: 1.05rem;
 }
 
 input,
 textarea {
   width: 100%;
-  padding: 0.6rem;
-  border: 1px solid #d5c6ee;
-  border-radius: 0.5rem;
+  padding: 0.75rem;
+  border: 0.08rem solid #d6cdc0;
+  border-radius: 0.55rem;
+  background-color: #fffdf9;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-size: 1rem;
+  color: #3d3833;
 }
 
 button {
-  background-color: #cbb79c;
-  color: #3e2f2f;
+  background-color: #9a9b87;
+  color: #fffaf2;
   font-weight: bold;
-  border: 1px solid #b8a489;
-  padding: 0.6rem 1rem;
-  border-radius: 0.5rem;
+  border: 0.08rem solid #8a8b78;
+  padding: 0.75rem 1.1rem;
+  border-radius: 0.55rem;
+  font-size: 1rem;
 }
 
-/* ===== الاقتباس ===== */
+button:hover {
+  background-color: #ad8e85;
+  color: #fffaf2;
+}
+
+/* ===== BLOCKQUOTE ===== */
 blockquote {
   text-align: center;
   font-style: italic;
+  color: #5b524b;
+  font-size: 1.08rem;
 }
 
 cite {
-  color: #7a5ab0;
+  color: #687a6e;
+  font-style: italic;
+  font-size: 1rem;
 }
 
-/* ===== الفوتر ===== */
+/* ===== FOOTER ===== */
 footer {
-  background-color: #e8ded1;
+  background-color: #e3e3db;
   text-align: center;
   padding: 1rem;
-  border-top: 0.15rem solid #d6c7b2;
+  border-top: 0.12rem solid #cfc8bc;
   margin-top: 2rem;
+  color: #4b443e;
+  font-size: 1rem;
 }
 
-/* ===== Back to Top ===== */
+/* ===== BACK TO TOP ===== */
 .back-to-top {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 1.2rem;
+  right: 1.2rem;
 }
 
 .back-to-top img {
-  width: 40px;
+  width: 2.8rem;
+  height: auto;
 }
