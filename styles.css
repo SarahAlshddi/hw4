@@ -332,14 +332,17 @@ footer {
 }
 .download-btn {
   display: inline-block;
-  background-color: #687a6e;
+  background-color: #9a9b87; /* نفس زر Send */
   color: #fffaf5;
-  padding: 0.5rem 0.9rem;
-  border-radius: 0.5rem;
+  padding: 0.7rem 1.2rem;
+  border-radius: 0.6rem;
   text-decoration: none;
   font-weight: bold;
+  font-size: 1.05rem;
+  border: 0.08rem solid #8a8b78;
 }
 
 .download-btn:hover {
   background-color: #ad8e85;
+  color: #fffaf5;
 }
