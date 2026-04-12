@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact</title>
+</head>
+
+<body>
+  <header id="top">
+    <center>
+      <h1>Sarah Alshiddi</h1>
+      <nav role="navigation" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="cv.html">CV</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+    </center>
+  </header>
+
+  <main role="main">
+    <hr>
+
+    <h2>Contact me</h2>
+    <p>If you have any questions or would like to connect, feel free to send me a message.</p>
+
+    <hr>
+
+    <!-- Use GET to avoid 405 on GitHub Pages -->
+    <form action="contact.html" method="get" aria-label="Contact form">
+      <p>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required>
+      </p>
+
+      <p>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required>
+      </p>
+
+      <p>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="6" required></textarea>
+      </p>
+
+      <p>
+        <button type="button">Send</button>
+      </p>
+    </form>
+
+    <hr>
+
+    <p>
+      Prefer email?
+      <a href="mailto:sarahiibrahiim@gmail.com">
+        <img src="images/email.png" alt="Email me" width="40">
+      </a>
+    </p>
+
+    <p align="right">
+      <a href="#top">
+        <img src="images/back-to-top.png" alt="Back to Top" width="40">
+      </a>
+    </p>
+  </main>
+
+  <footer>
+    <center>
+      <p>© Sarah Alshiddi — CSC457 HW2</p>
+    </center>
+  </footer>
+</body>
+</html>
