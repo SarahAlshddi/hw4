@@ -13,15 +13,18 @@ function validateForm() {
 }
 
 
-/* ===== Projects Description Toggle ===== */
-function toggleDescription(descriptionId) {
+function toggleDescription(descriptionId, button) {
+
   var description = document.getElementById(descriptionId);
 
   if (description.style.display == "none") {
     description.style.display = "block";
+    button.innerHTML = "Hide Description";
   } else {
     description.style.display = "none";
+    button.innerHTML = "Show Description";
   }
+
 }
 
 
