@@ -17,7 +17,7 @@ function toggleDescription(descriptionId, button) {
 
   var description = document.getElementById(descriptionId);
 
-  if (description.style.display == "none") {
+  if (description.style.display === "none") {
     description.style.display = "block";
     button.innerHTML = "Hide Description";
   } else {
