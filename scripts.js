@@ -26,9 +26,11 @@ function toggleDescription(descriptionId) {
 
 
 /* ===== CV Blockquote Event Handling ===== */
+
 var quote = document.querySelector("blockquote");
 
 if (quote != null) {
+
   quote.addEventListener("mouseover", function() {
     quote.style.backgroundColor = "#f2e3de";
     quote.style.fontStyle = "normal";
@@ -38,6 +40,7 @@ if (quote != null) {
     quote.style.backgroundColor = "#fffaf5";
     quote.style.fontStyle = "italic";
   });
+
 }
 
 
