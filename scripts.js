@@ -12,7 +12,7 @@ function validateForm() {
   }
 }
 
-
+/* بروجكت دسكربشن للشو الهايد */
 function toggleDescription(descriptionId, button) {
 
   var description = document.getElementById(descriptionId);
@@ -34,15 +34,17 @@ var quote = document.querySelector("blockquote");
 
 if (quote != null) {
 
-  quote.addEventListener("mouseover", function() {
-    quote.style.backgroundColor = "#f2e3de";
-    quote.style.fontStyle = "normal";
-  });
+quote.addEventListener("mouseover", function() {
+  quote.style.backgroundColor = "#f2e3de";
+  quote.style.fontStyle = "normal";
+  quote.style.fontSize = "1.2rem";
+});
 
-  quote.addEventListener("mouseout", function() {
-    quote.style.backgroundColor = "#fffaf5";
-    quote.style.fontStyle = "italic";
-  });
+quote.addEventListener("mouseout", function() {
+  quote.style.backgroundColor = "#fffaf5";
+  quote.style.fontStyle = "italic";
+  quote.style.fontSize = "1.08rem";
+});
 
 }
 
