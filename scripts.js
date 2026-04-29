@@ -57,8 +57,9 @@ window.onload = function() {
   if (footer != null && document.title == "Home") {
     var newParagraph = document.createElement("p");
     var currentDate = new Date();
-    var message = document.createTextNode("Page loaded on: " + currentDate);
-
+    var message = document.createTextNode(
+      "Page loaded on: " + currentDate.toLocaleString()
+    );
     newParagraph.appendChild(message);
     footer.appendChild(newParagraph);
   }
