@@ -37,7 +37,6 @@ if (quote != null) {
 quote.addEventListener("mouseover", function() {
   quote.style.backgroundColor = "#f2e3de";
   quote.style.fontStyle = "normal";
-  quote.style.fontWeight = "bold";
   quote.style.fontSize = "1.2rem";
 });
 
