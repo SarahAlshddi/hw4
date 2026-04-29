@@ -366,6 +366,10 @@ footer {
   display: none;
 }
 
+blockquote {
+  transition: 0.3s;
+}
+
 .download-btn:hover {
   background-color: #ad8e85;
   color: #fffaf5;
