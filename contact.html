@@ -28,8 +28,7 @@
 
     <hr>
 
-    <form action="contact.html" method="get" aria-label="Contact form">
-      <p>
+<form action="contact.html" method="get" aria-label="Contact form" onsubmit="return validateForm();">      <p>
         <label for="name">Name:</label><br>
         <input type="text" id="name" name="name" required>
       </p>
@@ -45,7 +44,7 @@
       </p>
 
       <p>
-<button type="button">Send</button>      </p>
+<button type="submit">Send</button>      </p>
     </form>
 
     <hr>
