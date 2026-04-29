@@ -36,13 +36,15 @@ if (quote != null) {
 
 quote.addEventListener("mouseover", function() {
   quote.style.backgroundColor = "#f2e3de";
-  quote.style.fontStyle = "bold";
+  quote.style.fontStyle = "normal";
+  quote.style.fontWeight = "bold";
   quote.style.fontSize = "1.2rem";
 });
 
 quote.addEventListener("mouseout", function() {
   quote.style.backgroundColor = "#fffaf5";
   quote.style.fontStyle = "italic";
+  quote.style.fontWeight = "normal";
   quote.style.fontSize = "1.08rem";
 });
 
