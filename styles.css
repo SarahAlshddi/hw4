@@ -104,6 +104,11 @@ p {
   font-size: 1.08rem;
 }
 
+#intro {
+  font-style: italic;
+  color: #6b625b;
+}
+
 /* ===== LINKS ===== */
 a {
   color: #687a6e;
@@ -128,11 +133,6 @@ a:hover {
   background-color: #f2e3de;
   padding: 0.2rem 0.4rem;
   border-radius: 0.4rem;
-}
-
-#intro {
-  font-style: italic;
-  color: #6b625b;
 }
 
 /* ===== LISTS ===== */
@@ -186,7 +186,28 @@ dd {
   border-radius: 0.8rem;
 }
 
-/* ===== CV  ===== */
+/* ===== CV ===== */
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-text {
+  width: 60%;
+}
+
+.about-image {
+  width: 35%;
+  text-align: center;
+}
+
+.about-image img {
+  width: 80%;
+  height: auto;
+  border-radius: 0.8rem;
+}
+
 .skills {
   display: flex;
 }
@@ -245,26 +266,7 @@ time {
   font-weight: bold;
   color: #ad8e85;
 }
-.about-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 
-.about-text {
-  width: 60%;
-}
-
-.about-image {
-  width: 35%;
-  text-align: center;
-}
-
-.about-image img {
-  width: 80%;
-  height: auto;
-  border-radius: 0.8rem;
-}
 /* ===== FORM ===== */
 label {
   font-weight: bold;
@@ -305,6 +307,7 @@ blockquote {
   font-style: italic;
   color: #5b524b;
   font-size: 1.08rem;
+  transition: 0.3s;
 }
 
 cite {
@@ -362,15 +365,12 @@ footer {
   border: 0.08rem solid #8a8b78;
 }
 
-.hidden {
-  display: none;
-}
-
-blockquote {
-  transition: 0.3s;
-}
-
 .download-btn:hover {
   background-color: #ad8e85;
   color: #fffaf5;
+}
+
+/* ===== JAVASCRIPT HELPERS ===== */
+.hidden {
+  display: none;
 }
