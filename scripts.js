@@ -45,6 +45,7 @@ quote.addEventListener("mouseout", function() {
   quote.style.fontStyle = "italic";
   quote.style.fontSize = "1.08rem";
 });
+  
 
 }
 
