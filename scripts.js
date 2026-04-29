@@ -58,7 +58,7 @@ window.onload = function() {
     var newParagraph = document.createElement("p");
     var currentDate = new Date();
     var message = document.createTextNode(
-      "Page loaded on: " + currentDate.toLocaleString()
+      "Page loaded on: " + currentDate.toLocaleString('en-US')
     );
     newParagraph.appendChild(message);
     footer.appendChild(newParagraph);
