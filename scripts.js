@@ -17,11 +17,11 @@ function toggleDescription(descriptionId, button) {
 
   var description = document.getElementById(descriptionId);
 
-  if (description.style.display === "none") {
-    description.style.display = "block";
+  if (description.classList.contains("hidden")) {
+    description.classList.remove("hidden");
     button.innerHTML = "Hide Description";
   } else {
-    description.style.display = "none";
+    description.classList.add("hidden");
     button.innerHTML = "Show Description";
   }
 
