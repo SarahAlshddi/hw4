@@ -341,6 +341,10 @@ footer {
   border: 0.08rem solid #8a8b78;
 }
 
+.hidden {
+  display: none;
+}
+
 .download-btn:hover {
   background-color: #ad8e85;
   color: #fffaf5;
