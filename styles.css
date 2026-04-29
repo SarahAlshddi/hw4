@@ -307,9 +307,10 @@ footer {
 
 /* ===== BACK TO TOP ===== */
 .back-to-top {
-  display: block;
-  text-align: right;
-  margin-top: 1rem;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
 }
 
 .back-to-top img {
